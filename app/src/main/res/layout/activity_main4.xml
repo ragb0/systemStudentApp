@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/gg1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="youtube link" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Visualization"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/gg2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="youtube link" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software Enigneering"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/gg3"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="youtube link" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stochastic Processes"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/gg4"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="youtube link" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advanced DataBase"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/gg5"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="youtube link" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operating System"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/gg6"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="youtube link" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Optimization"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/gg7"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="youtube link" />
+    </LinearLayout>
+</ScrollView>

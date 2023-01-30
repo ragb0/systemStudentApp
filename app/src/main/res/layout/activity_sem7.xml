@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/p"
+
+        tools:context=".Sem1">
+
+        <Button
+            android:id="@+id/numerical_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="147dp"
+            android:layout_marginEnd="44dp"
+            android:backgroundTint="#B2CFFA"
+            android:drawableTop="@drawable/data_aafst7pjtw6q_64"
+            android:drawableTintMode="screen"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="144dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#ADC9FA"
+            android:drawableTop="@drawable/optimization_88isfd8fe94t_64"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/white"
+            android:backgroundTint="#CCE1FE"
+            android:drawableTop="@drawable/programming_fxf6snuv2y9l_64"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/white"
+            android:backgroundTint="#CADFFC"
+            android:drawableBottom="@drawable/social_network_t6ibjw4zcj7s_64"
+            android:text=""
+            android:textColorHighlight="#9A2A2A" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="159dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="140dp"
+            android:backgroundTint="#DDEDFD"
+            android:drawableBottom="@drawable/simulation_89uj8xr5q4g3_64"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="43dp"
+            android:text="Convex Optimization"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="64dp"
+            android:text="Data base"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="143dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/button9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="204dp"
+            android:layout_toStartOf="@+id/textView5"
+            android:text="Mobile Programming"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="202dp"
+            android:text="Introduction to social network"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="20dp"
+            android:text="simulation"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

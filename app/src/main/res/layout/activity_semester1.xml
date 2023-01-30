@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p"
+    tools:context=".semester_1">
+
+    <Button
+        android:id="@+id/prog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#3F51B5"
+        android:drawableTop="@drawable/programming_imn5i1lwzcp6"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/CS"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/p"
+        android:drawableTop="@drawable/computer_0o2exs6q8le5"
+        android:drawableTintMode="screen"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/calc1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/prog"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/p"
+        android:drawableTop="@drawable/calculus_03lnpb9mxnk0"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/linear"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/CS"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/p"
+        android:drawableBottom="@drawable/matrix_gtetxzefyfqq"
+        android:text="Button"
+        android:textColorHighlight="#9A2A2A" />
+
+    <Button
+        android:id="@+id/d.s"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/linear"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="142dp"
+        android:background="@drawable/p"
+        android:backgroundTint="#D4E5FD"
+        android:drawableBottom="@drawable/data_science_79kkxrbycyds"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prog"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="44dp"
+        android:text="Programming"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CS"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="43dp"
+        android:text="Comouter System"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calc1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="111dp"
+        android:layout_toStartOf="@+id/textView5"
+        android:text="Calculus"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/linear"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="195dp"
+        android:text="Linear Algebra"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="96dp"
+        android:text="Intro Data Science"
+        android:textStyle="bold" />
+</RelativeLayout>

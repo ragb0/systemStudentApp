@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/prog2_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="715dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-17dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F6F3F3"
+        android:backgroundTint="#FBF9F9"
+        android:cacheColorHint="#CDDC39"
+        android:isScrollContainer="true"
+        android:outlineAmbientShadowColor="#673AB7"
+        android:outlineSpotShadowColor="#AF1D1D"
+        android:padding="50dp" />
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/p"
+
+        tools:context=".Sem1">
+
+        <Button
+            android:id="@+id/numerical_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="147dp"
+            android:layout_marginEnd="44dp"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/distributed_database_72cp1jyp6wll_64"
+            android:drawableTintMode="screen"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="152dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/big_data_tu1cgmgcy064_128"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/report_ijfgzfofylm8_64"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@drawable/data_6itfglkgj5jc_64"
+            android:text=""
+            android:textColorHighlight="#9A2A2A" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="159dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="140dp"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@drawable/statistics_report_w32854ewmxtf_64"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="35dp"
+            android:text="Advanced Data Base"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="30dp"
+            android:text=" Distributed Data base "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="143dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/button9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="219dp"
+            android:layout_toStartOf="@+id/textView5"
+            android:text="Multivariate Statistical Analysis "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="202dp"
+            android:text="Data Compression Techniques "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="93dp"
+            android:layout_marginBottom="20dp"
+            android:text="Bayesian Statistical Analysis"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/p"
+
+        tools:context=".Sem1">
+
+        <Button
+            android:id="@+id/numerical_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="147dp"
+            android:layout_marginEnd="44dp"
+            android:backgroundTint="#B3D0FC"
+            android:drawableTop="@drawable/business_operations_zk9btma7mxgz_64"
+            android:drawableTintMode="screen"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="144dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#AECCFE"
+            android:drawableTop="@drawable/data_analysis_11cbie2asr0z_64"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="100dp"
+            android:background="#CCE1FE"
+            android:drawableTop="@drawable/statistical_graphic_jo877sn2jij2_128"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/white"
+            android:backgroundTint="#C7DEFD"
+            android:drawableBottom="@drawable/language_znkcyznkvbbf_64"
+            android:text=""
+            android:textColorHighlight="#9A2A2A" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="159dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="140dp"
+            android:backgroundTint="#E1EEFE"
+            android:drawableBottom="@drawable/pets_j45h3u53lbsm_64"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="52dp"
+            android:text="Data Computation And Analysis"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="32dp"
+            android:text="survey methodology"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="143dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/button9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="203dp"
+            android:layout_toStartOf="@+id/textView5"
+            android:text="Computing Intensive Statistical Methods"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="194dp"
+            android:text="Language Technology"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="20dp"
+            android:text="Handle pets"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

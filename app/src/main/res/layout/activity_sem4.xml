@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/p"
+
+        tools:context=".Sem1">
+
+        <Button
+            android:id="@+id/numerical_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="129dp"
+            android:layout_marginEnd="65dp"
+            android:backgroundTint="#A4C4FD"
+            android:drawableTop="@drawable/machine_learning_pfhkx4jm79ta"
+            android:drawableTintMode="screen"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="144dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#A5C5FD"
+            android:drawableTop="@drawable/cloud_computing_r6nrdl4cqyy3_128"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="84dp"
+            android:background="#C5DCFC"
+            android:drawableTop="@drawable/data_mining_msr1z2izr16t"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/white"
+            android:backgroundTint="#C5DCFC"
+            android:drawableBottom="@drawable/data_science_gxffnenqczq6"
+            android:text="Button"
+            android:textColorHighlight="#9A2A2A" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="143dp"
+            android:backgroundTint="#D9EAFC"
+            android:drawableBottom="@drawable/analysis_bso1qv5gw2jj_64"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="25dp"
+            android:text="Cloud computing"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numerical_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="56dp"
+            android:text="Machine Learning"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="143dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/button9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="211dp"
+            android:layout_toStartOf="@+id/textView5"
+            android:text="Data Mining and Analysis"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="199dp"
+            android:text="Data Science Tools and Software"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="24dp"
+            android:text="Regression Analysis"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>
